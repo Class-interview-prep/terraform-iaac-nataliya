@@ -1,6 +1,9 @@
-resource "aws_security_group" "allow_tls" {
-  name        = "${var.sg_name}"
-  description = "Allow TLS inbound traffic"
+resource "aws_security_group" "allow_traffic" {
+  name         = "${var.sg_name}"
+  description  = "Allow TLS inbound traffic"
+  vpc_id       = "${aws_vpc.main.id}"
+
+
   ingress {
     description = "TLS from VPC"
     from_port   = 80
@@ -25,10 +28,5 @@ resource "aws_security_group" "allow_tls" {
     cidr_blocks = ["${var.egress_cidr_blocks}"]
   }
 
-    tags = {
-    Environment = "${var.Environment}"
-    Department = "${var.Department}"
-    Team = "${var.Team}"
-    Created_by = "${var.Created_by}"
-  }
+  tags          = "${var.tags}"
 }
