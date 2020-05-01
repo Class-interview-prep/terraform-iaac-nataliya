@@ -1,5 +1,9 @@
 VPC Task via Terraform
 
+<img width="812" alt="Screen Shot 2020-04-30 at 10 12 43 PM" src="https://user-images.githubusercontent.com/63379120/80779092-36a9a500-8b30-11ea-97e2-e9fdbfa4421e.png">
+
+
+
 
 * VPC Output
 * terraform apply -var-file vpc.tfvars
