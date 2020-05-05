@@ -1,6 +1,13 @@
 # HOW TO INSTALL JENKINS 
 ![jenkins logo on linux](https://user-images.githubusercontent.com/63379120/81092043-a79ce400-8ec5-11ea-9e3e-b2b9b80b3c55.jpg)
 
+
+:black_medium_square: Jenkins is a free and open source automation server.
+
+:black_medium_square: It helps automate the parts of software development related to building, testing, and deploying,
+ facilitating continuous integration and continuous delivery.
+
+
 #### PREREQUISITES:
  
    - **1 VPC**
@@ -11,20 +18,23 @@
    - **Private subnets should have NG attached to it**
    - **Configure route tables**
    
-   **To check if everything is configured properly, create ec2 instance, manually, on public subnet and ping www.google.com.**
+  
+   
+    
+  **To check if everything is configured properly, create ec2 instance, manually, on public subnet and ping www.google.com.**
   
 
 
 <img width="909" alt="ec2 pings google" src="https://user-images.githubusercontent.com/63379120/81093957-7376f280-8ec8-11ea-8f8c-83c056387234.png">
 
- If everything is successful, you should have proper response #&8593  :+1:
+ If everything is successful, you should have proper response &#8593;  :+1:
 
-**TO INSTALL JENKINS ON EC2 INSTANCE, FOLLOW THE STEPS BELOW &#8595;** **OR**
+**TO INSTALL JENKINS ON EC2 INSTANCE, FOLLOW THE STEPS BELOW :arrow_down:** **OR**
 &nbsp;
 
 
 
-**Please refer null_resource.tf for more details**
+**Please refer to null_resource.tf for more details**
 
 ```HCL
 provisioner "remote-exec" {
@@ -84,11 +94,14 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword`$(tput sgr0)",
 
 
 
-****<font size="+1">terraform apply -var-file jenkins.tfvars</font>****
+## terraform apply -var-file jenkins.tfvars
 
 <img width="1236" alt="Screen Shot 2020-05-04 at 9 09 21 PM" src="https://user-images.githubusercontent.com/63379120/81095609-dff2f100-8eca-11ea-9108-137354b6481f.png">
 
-**http://your_ip_or_domain:8080**
+
+
+&nbsp;
+## http://your_ip_or_domain:8080
 
 
 <img width="999" alt="Screen Shot 2020-05-05 at 1 56 26 PM" src="https://user-images.githubusercontent.com/63379120/81105515-ac6b9300-8ed9-11ea-98ef-5b4bf2a8dcf2.png">
@@ -100,7 +113,8 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword`$(tput sgr0)",
 
 &nbsp;
 
-**- To Set Up Jenkins, please follow the prompts**
+
+## To Set Up Jenkins, please follow the prompts
 
 <img width="1009" alt="Screen Shot 2020-05-05 at 1 57 56 PM" src="https://user-images.githubusercontent.com/63379120/81105404-77f7d700-8ed9-11ea-9fcc-38d1c0366a48.png">
 
@@ -118,7 +132,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword`$(tput sgr0)",
 
 &nbsp;
 
-**Jenkins Dashboard**
+## Jenkins Dashboard
 
 <img width="1040" alt="Screen Shot 2020-05-05 at 2 03 49 PM" src="https://user-images.githubusercontent.com/63379120/81105848-39165100-8eda-11ea-8a5a-9dfa221b3ece.png">
 
