@@ -84,7 +84,9 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword`$(tput sgr0)",
 
 **http://your_ip_or_domain:8080**
 
-![Screen Shot 2020-05-04 at 1 22 40 PM](https://user-images.githubusercontent.com/63379120/81095319-77a40f80-8eca-11ea-8c8f-ef0072f2ca14.png)
+
+<img width="999" alt="Screen Shot 2020-05-05 at 1 56 26 PM" src="https://user-images.githubusercontent.com/63379120/81105515-ac6b9300-8ed9-11ea-98ef-5b4bf2a8dcf2.png">
+
 
 
 
@@ -94,10 +96,23 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword`$(tput sgr0)",
 
 **- To Set Up Jenkins, please follow the prompts**
 
-![Screen Shot 2020-05-04 at 1 23 06 PM](https://user-images.githubusercontent.com/63379120/81095473-a8844480-8eca-11ea-9aa1-9c43bc44c5d9.png)
+<img width="1009" alt="Screen Shot 2020-05-05 at 1 57 56 PM" src="https://user-images.githubusercontent.com/63379120/81105404-77f7d700-8ed9-11ea-9fcc-38d1c0366a48.png">
 
+<img width="1009" alt="Screen Shot 2020-05-05 at 1 57 56 PM" src="https://user-images.githubusercontent.com/63379120/81105728-f8b6d300-8ed9-11ea-8d2d-f0d6be454f3b.png">
+
+<img width="999" alt="Screen Shot 2020-05-05 at 1 59 20 PM" src="https://user-images.githubusercontent.com/63379120/81105776-0bc9a300-8eda-11ea-9c6d-2ca23ba984e1.png">
+
+<img width="1007" alt="Screen Shot 2020-05-05 at 2 03 00 PM" src="https://user-images.githubusercontent.com/63379120/81105794-17b56500-8eda-11ea-97ac-8a2d95fb0eb2.png">
+
+<img width="1007" alt="Screen Shot 2020-05-05 at 2 03 20 PM" src="https://user-images.githubusercontent.com/63379120/81105825-2b60cb80-8eda-11ea-8092-6b84183748d1.png">
+
+
+
+
+
+&nbsp;
 
 **Jenkins Dashboard**
 
-![Screen Shot 2020-05-04 at 1 29 38 PM](https://user-images.githubusercontent.com/63379120/81095384-8db1d000-8eca-11ea-9d01-5aada3006538.png)
+<img width="1040" alt="Screen Shot 2020-05-05 at 2 03 49 PM" src="https://user-images.githubusercontent.com/63379120/81105848-39165100-8eda-11ea-8a5a-9dfa221b3ece.png">
 
