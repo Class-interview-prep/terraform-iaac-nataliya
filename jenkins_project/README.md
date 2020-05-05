@@ -28,7 +28,7 @@
 
 <img width="909" alt="ec2 pings google" src="https://user-images.githubusercontent.com/63379120/81093957-7376f280-8ec8-11ea-8f8c-83c056387234.png">
 
- If everything is successful, you should have proper response &#8593;  :+1:
+ - If everything is successful, you should have proper response &#8593;  :+1:
 
 **TO INSTALL JENKINS ON EC2 INSTANCE, FOLLOW THE STEPS BELOW :arrow_down:** **OR**
 &nbsp;
@@ -135,4 +135,11 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword`$(tput sgr0)",
 # Jenkins Dashboard
 
 <img width="1040" alt="Screen Shot 2020-05-05 at 2 03 49 PM" src="https://user-images.githubusercontent.com/63379120/81105848-39165100-8eda-11ea-8a5a-9dfa221b3ece.png">
+
+&nbsp;
+
+
+
+
+<img width="685" alt="Screen Shot 2020-05-05 at 3 17 16 PM" src="https://user-images.githubusercontent.com/63379120/81111983-8cd96800-8ee3-11ea-9dc5-b69ce26993f7.png">
 
