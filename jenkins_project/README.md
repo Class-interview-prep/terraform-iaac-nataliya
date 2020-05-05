@@ -13,9 +13,11 @@
    
    **To check if everything is configured properly, create ec2 instance, manually, on public subnet and ping www.google.com.**
   
- If everything is successful, you should have proper response  :+1:
+
 
 <img width="909" alt="ec2 pings google" src="https://user-images.githubusercontent.com/63379120/81093957-7376f280-8ec8-11ea-8f8c-83c056387234.png">
+
+ If everything is successful, you should have proper response  :+1:
 
 **TO INSTALL JENKINS ON EC2 INSTANCE, FOLLOW THE STEPS BELOW &#8595;** **OR**
 
