@@ -17,9 +17,11 @@
 
 <img width="909" alt="ec2 pings google" src="https://user-images.githubusercontent.com/63379120/81093957-7376f280-8ec8-11ea-8f8c-83c056387234.png">
 
- If everything is successful, you should have proper response  :+1:
+ If everything is successful, you should have proper response #&8593  :+1:
 
 **TO INSTALL JENKINS ON EC2 INSTANCE, FOLLOW THE STEPS BELOW &#8595;** **OR**
+&nbsp;
+
 
 
 **Please refer null_resource.tf for more details**
@@ -36,6 +38,8 @@ provisioner "remote-exec" {
     inline = [
     ]
 ```
+&nbsp;
+
 
  
  **1. Jenkins is a Java application, so the first step is to install Java.**
