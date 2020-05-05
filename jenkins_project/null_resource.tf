@@ -20,12 +20,7 @@ resource "null_resource" "jenkins_passwd" {
       "sudo yum install jenkins -y",
       "sudo systemctl start jenkins",
       "sudo systemctl enable jenkins",
-      "echo -e $(tput setaf 1 )'Jenkins Passwd is: '$(tput sgr0) $(tput setaf 2)`sudo cat /var/lib/jenkins/secrets/initialAdminPassword`$(tput sgr0)",
+      "echo -e $(tput setaf 1 )'Jenkins initialAdminPassword is: '$(tput sgr0) $(tput setaf 2)`sudo cat /var/lib/jenkins/secrets/initialAdminPassword`$(tput sgr0)",
     ]
-
-    # "sudo cp -r /tmp/.ssh/  /var/lib/jenkins",
-    # "sudo cp -r /tmp/config  /var/lib/jenkins/.ssh/",
-    # "sudo chmod 600 /var/lib/jenkins/.ssh/id_rsa",
-    # "sudo chown -R jenkins:jenkins /var/lib/jenkins/.ssh",    
   }
 }
