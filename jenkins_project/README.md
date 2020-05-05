@@ -78,7 +78,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword`$(tput sgr0)",
 
 
 
-****- terraform apply -var-file jenkins.tfvars****
+****<font size="+1">terraform apply -var-file jenkins.tfvars</font>****
 
 <img width="1236" alt="Screen Shot 2020-05-04 at 9 09 21 PM" src="https://user-images.githubusercontent.com/63379120/81095609-dff2f100-8eca-11ea-9108-137354b6481f.png">
 
