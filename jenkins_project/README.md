@@ -21,7 +21,7 @@
   
    
     
-   **To check if everything is configured properly, create ec2 instance, manually, on public subnet and ping www.google.com.**
+   **To check if everything is configured properly, create ec2 instance, manually,  on public subnet and ping www.google.com.**
   
 
 
