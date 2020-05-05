@@ -11,7 +11,7 @@
    - **Private subnets should have NG attached to it**
    - **Configure route tables**
    
-   To check if everything is configured properly, create ec2 instance, manually, on public subnet and ping www.google.com
+   *To check if everything is configured properly, create ec2 instance, manually, on public subnet and ping www.google.com
    
-  
+ :+1:
 <img width="909" alt="ec2 pings google" src="https://user-images.githubusercontent.com/63379120/81093957-7376f280-8ec8-11ea-8f8c-83c056387234.png">
